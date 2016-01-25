@@ -1,0 +1,29 @@
+{
+  "name": "halyard-controlplane",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure controlplane via Boxen",
+  "source": "https://github.com/halyard/puppet-controlplane",
+  "project_page": "https://github.com/halyard/puppet-controlplane",
+  "issues_url": "https://github.com/halyard/puppet-controlplane/issues",
+  "dependencies": [
+    {
+      "name": "halyard/homebrew",
+      "version_requirement": "1.13.x"
+    },
+    {
+      "name": "halyard/brewcask",
+      "version_requirement": "0.1.x"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
